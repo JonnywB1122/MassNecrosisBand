@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Influences</title>
+<link rel="stylesheet" href="css.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet"></head>
+<body>
+<!-- Use any element to open the sidenav -->
+<span style="font-size:30px;cursor:pointer" class="button" onclick="openNav()">&#9776; Menu</span>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+<h1>Influences and Background</h1>
+<table class="scroll">
+<tr><td><img src="images/sabbath.png" width="800"></td><td class="tbox"><a href="https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw" target="_blank">Black Sabbath</a> were an English rock band formed in Birmingham in 1968 by guitarist Tony Iommi, drummer Bill Ward, bassist Geezer Butler and vocalist Ozzy Osbourne. They are often cited as pioneers of heavy metal music. The band helped define the genre with releases such as Black Sabbath, Paranoid and Master of Reality.<br>This band has helped define my bluesey riffing style and is the main reference for my lead guitar tones and breakdowns.</td></tr>
+<tr><td><img src="images/megadeth.jpeg" width="800"></td><td class="tbox"><a href="https://www.youtube.com/@Megadeth" target="_blank">Megadeth</a> is an American thrash metal band formed in Los Angeles in 1983 by vocalist/guitarist Dave Mustaine.<br>Mustaine's speedy riffs have helped me experiment more with speed and thrash metal. However, Marty Friedman has had a far larger impact on my lead guitar style and solo writing.</td></tr>
+<tr><td><img src="images/metallica.jpeg" width="800"></td><td class="tbox"><a href="https://www.youtube.com/@metallica" target="_blank">Metallica</a> is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist and guitarist James Hetfield and drummer Lars Ulrich, and has been based in San Francisco for most of its career.<br>The main influence this band has had on my style is primarily in songwriting and tone.</td></tr>
+<tr><td><img src="images/Pantera.jpeg" width="800"></td><td class="tbox"><a href="https://www.youtube.com/@pantera" target="_blank">Pantera</a> is an American heavy metal band from Arlington, Texas, formed in 1981 by the Abbott brothers, and currently composed of vocalist Phil Anselmo, bassist Rex Brown, and touring musicians Zakk Wylde and Charlie Benante.<br>Pantera's biggest influence on my sound is double kick grooves and low guitar tunings which has thickened out my style.</td></tr>
+</table>
+</div>   
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="background.html">Influences</a>
+  <a href="links.html">Music</a>
+  <a href="info.html">Info</a>
+</div>
+</body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</html>

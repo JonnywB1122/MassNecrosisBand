@@ -1,0 +1,162 @@
+/* Color Theme Swatches in Hex */
+.skull-1-hex { color: #F2F2F0; }
+.skull-2-hex { color: #D9D0C1; }
+.skull-3-hex { color: #736555; }
+.skull-4-hex { color: #A69580; }
+.skull-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in Hex */
+.grunge-halloween-1-hex { color: #73020C; }
+.grunge-halloween-2-hex { color: #8C0303; }
+.grunge-halloween-3-hex { color: #400101; }
+.grunge-halloween-4-hex { color: #260101; }
+.grunge-halloween-5-hex { color: #0D0000; }
+
+h1 {
+    text-align: center;
+    color: #8C0303;
+    font-size: 48px;
+    font-family: "Black Ops One", fantasy;
+    letter-spacing: 4px;
+}
+p {
+    color: #F2F2F0;
+    font-family: "Special Elite", monospace;
+}
+a {
+    font-family: "PT Serif", serif;
+    color: #F2F2F0;
+}
+ul {
+    color: #D9D0C1;
+}
+td {
+    color: #F2F2F0;
+    font-family: "Special Elite", monospace;
+    font-size: 20px;
+}
+audio {
+    padding: 50px;
+}
+.welp {
+    border: 1px #0D0000 solid;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+.tbox {
+    border: 4px #400101 dashed;
+    background-color: #260101;
+}
+.tbox:hover {
+    text-decoration-style: solid;
+    background-color: #736555; 
+}
+.scroll {
+    opacity: 0;
+    transition: opacity 2s;
+}
+.scroll:hover {
+    opacity: 1;
+}
+.scroll {
+    margin: auto;
+}
+.limu {
+    color: #F2F2F0;
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+}
+.limu:visited {
+    color: #D9D0C1;
+}
+.limu:hover {
+    text-decoration-style: dashed;
+}
+.links{
+    border: 2px #260101 solid;
+    background-color: #400101;
+    margin: auto;
+    padding: 10px 20px;
+    width: 800px;
+    text-align: center;
+    word-spacing: 20px;
+}
+.home {
+    font-size: 24px;
+    color: #F2F2F0;
+}
+.home:hover{
+    text-decoration-style: dashed;
+}
+.home:active{
+    color: #D9D0C1;
+}
+body {
+    background-color: #0D0000;
+}
+
+.button {
+  background-color: #73020C;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    font-family: "PT Serif", serif;
+}
+
+.button:hover {
+    background-color: #400101;
+    transition: .2s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #73020C;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #D9D0C1;
+  display: block;
+  transition: 0.3s;
+    font-family: "PT Serif", serif;
+}
+
+.sidenav a:hover {
+  color: #F2F2F0;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

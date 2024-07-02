@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Jonathan Brady - CSS Showcase</title>
+<link rel="stylesheet" href="css.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet"></head>
+<body>
+<!-- Use any element to open the sidenav -->
+<span style="font-size:30px;cursor:pointer" class="button" onclick="openNav()">&#9776; Menu</span>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+<h1 class="well">Welcome!</h1>
+<p class="welp">Welcome to the website for my band <em>Mass Necrosis</em>! This website includes: My influences as an artist, info about our band, and links to our music and other information.</p>
+<br>
+<table class="scroll">
+<tr><td><img src="Images/Album_1.png" width="800px"></td></tr>
+<tr><td><img src="Images/drum.jpeg" width=800px></td></tr>
+<tr><td><img src="Images/redbanner2.jpeg" width="800px"></td></tr>
+</table>
+</div>   
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="background.html">Influences</a>
+  <a href="links.html">Music</a>
+  <a href="info.html">Info</a>
+    <br>
+</div>
+</body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</html>

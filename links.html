@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Music</title>
+<link rel="stylesheet" href="css.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet"></head>
+<body>
+<!-- Use any element to open the sidenav -->
+<span style="font-size:30px;cursor:pointer" class="button" onclick="openNav()">&#9776; Menu</span>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+<h1>Music and Links</h1>
+<img src="images/drum.jpeg" align="right" width="500px">
+<ul>
+<li><a href="https://www.youtube.com/@powerbass12" target="_blank" class="limu">Youtube</a></li>
+<li><a href="https://studio.code.org/projects/spritelab/EaLZpuHWsZSF_UcWoa0UHPwWTzJDxMRR7DjQbLpTtu4" target="_blank" class="limu">Bee Eats</a></li>
+<li><a href="https://studio.code.org/projects/gamelab/otM01WnhLgDZwis47V3gGMnGzePPs0znxl3xAzcxE_8" target="_blank" class="limu">Brutal Mayhem</a></li>
+</ul>
+<br>
+<audio controls>
+    <source src="images/Oedipus.wav" type="audio/wav">
+</audio>
+</div>   
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="background.html">Influences</a>
+  <a href="links.html">Music</a>
+  <a href="info.html">Info</a>
+</div>
+</body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</html>
